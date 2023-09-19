@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TBC AI</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+            <div class="container-fluid banner d-flex align-items-center" width="1325">
+                <div class="container">
+                    <div class="col-md-8 offset-md-2">
+                    <h1 class=" text-center mb-4 text-white">Welcome To Tbc Ai</h1>
+                    <p class=" text-center mb-4 text-white">Chatbot ini diharapkan dapat membantu dalam:
+
+                      1. Edukasi: Memberikan pengetahuan dasar tentang TBC, termasuk penyebab, gejala, diagnosis, dan pengobatan yang diperlukan.
+                      
+                      2. Pencegahan: Memberikan saran dan tindakan pencegahan yang efektif untuk mengurangi risiko penyebaran TBC.
+                      
+                      3. Pengenalan Dini: Membantu pengguna mengenali gejala awal TBC sehingga dapat segera mencari perawatan medis.
+                      
+                      4. Panduan Medis: Menyediakan informasi terbaru mengenai pengobatan, perawatan, dan tata cara isolasi jika terdiagnosis TBC.</p>
+
+                      <h3 class=" text-center mb-4 text-white mt-5">klik simbol disebelah kanan bawah untuk memulai chatbot !</h3>
+                    </div>
+                </div>
+            </div>
+            <script>
+              window.watsonAssistantChatOptions = {
+                integrationID: "5d99f115-ed90-452b-b46e-bf1dfba5d37d", // The ID of this integration.
+                region: "us-south", // The region your integration is hosted in.
+                serviceInstanceID: "982998f6-7792-4b67-893a-e0465c251cab", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+              setTimeout(function(){
+                const t=document.createElement('script');
+                t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+                document.head.appendChild(t);
+              });
+            </script>
+            <script src = "bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src ="fontawesome/js/all.min.js"></script>
+        </body>
+</html>
