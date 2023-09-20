@@ -1,8 +1,11 @@
 .color1{
-    background-color: #f1b511;
+    background-color: #ffa400;
 }
 .banner{
     height: 100vh;
-    background: #white;
+    background: white;
     background-size: 1800px 800px;
+}
+.br{
+    border-radius: 25px;
 }
