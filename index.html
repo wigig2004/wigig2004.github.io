@@ -1,46 +1,432 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TBC AI</title>
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-        <body>
-            <div class="container-fluid banner d-flex align-items-center" width="1325">
-                <div class="container color1 p-3 br">
-                    <div class="col-md-8 offset-md-2">
-                    <h1 class=" text-center mb-4 text-white">Welcome To Tbc Ai</h1>
-                    <div class=" text-center mb-4 text-white">
-                    <p>Chatbot ini diharapkan dapat membantu dalam:</p>
 
-                      <p>1. Edukasi: Memberikan pengetahuan dasar tentang TBC, termasuk penyebab, gejala dan diagnosis.</p>
-                      
-                      <p>2. Pencegahan: Memberikan saran dan tindakan pencegahan yang efektif untuk mengurangi risiko penyebaran TBC.</p>
-                      
-                      <p>3. Pengenalan Dini: Membantu pengguna mengenali gejala awal TBC sehingga dapat segera mencari perawatan medis.</p>
-                    </div>
-                      <h3 class=" text-center mb-4 text-white mt-5">klik simbol disebelah kanan bawah untuk memulai chatbot !</h3>
-                    </div>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/dinasLogo.png" rel="icon">
+  <link href="assets/img/dinasLogo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+  .rounded-custom {
+    object-fit: cover;
+    width: 100%; /* Mengisi lebar parent dengan gambar */
+    height: 400px; /* Tinggi gambar pada tampilan desktop */
+    border-radius: 20px; /* Sudut bulat dengan radius 10px */
+  }
+  @media (max-width: 767px) {
+    .rounded-custom {
+      height: 200px; /* Tinggi gambar pada tampilan mobile */
+    }
+  }
+  .responsive-img {
+    object-fit: cover;
+    width: 80%;
+    height: 150px;
+  }
+
+  @media (min-width: 992px) { /* Breakpoint untuk desktop */
+    .responsive-img {
+      height: 400px;
+      object-fit: cover;
+      width: 90%;
+    }
+  }
+  .ukuran {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  @media (min-width: 992px) { /* Breakpoint untuk desktop */
+    .ukuran {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+</style>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/dinasLogo.png" class="rounded-1" alt="Logo Sekolah">
+        <div class="d-flex flex-column ">
+        <h1 class="m-0">Nama Sekolah</h1> <!-- m-0 for removing default margin -->
+        <h2 class="m-0">Slogan Sekolah</h2> <!-- m-0 for removing default margin -->
+        </div>
+      </a>    
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li class="dropdown"><a href="#"><span>Tentang Kami</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#About">Tentang Kami</a></li>
+              <li><a href="#">Pengurus Sekolah</a></li>
+            </ul>
+          <li><a href="#berita">Berita Sekolah</a></li>
+          <li><a href="perpus.html">ePerpus</a></li>
+          <li><a href="#">Kontak Sekolah</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero">
+  <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+          <div class="d-flex justify-content-center align-items-center">
+              <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-aos="zoom-out" data-aos-delay="100">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="assets/img/sekolah11.png" class="img-fluid rounded-custom mr-4" alt="Slide 1" style="object-fit: cover; width: 1400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="assets/img/sekolah2.png" class="img-fluid rounded-custom mr-4" alt="Slide 2" style="object-fit: cover; width: 1400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="assets/img/sekolah3.png" class="img-fluid rounded-custom mr-4" alt="Slide 3" style="object-fit: cover; width: 1400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="assets/img/sekolah4.jpg" class="img-fluid rounded-custom mr-4" alt="Slide 4" style="object-fit: cover; width: 1400px;">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- End Hero Section -->
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="buku" class="recent-posts mt-4">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-0">
+          <p class="mb-0 text-black"><strong>Rekomendasi Bacaan</strong></p>
+          <p class="mb-0"><a href="perpus.html" class="text-danger text-decoration-none">ePerpus</a></p>
+        </div>
+      
+        <!-- Konten buku-buku -->
+        <div class="row flex-nowrap overflow-auto ">
+          <div class="col-4 col-lg-3 scrollable">
+            <div class="card">
+              <a href="perpus.html" class="text-decoration-none">
+                <div class="text-center">
+                <img src="assets/img/buku4.jpg" class="card-img-top img-fluid mb-2 responsive-img mt-2 rounded-3" alt="buku">
                 </div>
+                <div class="card-body">
+                  <p class="title "><a href="#" class="text-black">Bacaan Sejarah</a></p>
+                </div>
+              </a>
             </div>
-            <script>
-              window.watsonAssistantChatOptions = {
-                integrationID: "5d99f115-ed90-452b-b46e-bf1dfba5d37d", // The ID of this integration.
-                region: "us-south", // The region your integration is hosted in.
-                serviceInstanceID: "982998f6-7792-4b67-893a-e0465c251cab", // The ID of your service instance.
-                onLoad: function(instance) { instance.render(); }
-              };
-              setTimeout(function(){
-                const t=document.createElement('script');
-                t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-                document.head.appendChild(t);
-              });
-            </script>
-            <script src = "bootstrap/js/bootstrap.bundle.min.js"></script>
-            <script src ="fontawesome/js/all.min.js"></script>
-        </body>
+          </div>
+          <div class="col-4 col-lg-3 scrollable">
+            <div class="card">
+              <a href="perpus.html" class="text-decoration-none">
+                <div class="text-center">
+                <img src="assets/img/buku3.jpg" class="card-img-top img-fluid mb-2 responsive-img mt-2 rounded-3" alt="buku">
+                </div>
+                <div class="card-body">
+                  <p class="title "><a href="#" class="text-black">Bacaan Biologi</a></p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-4 col-lg-3 scrollable">
+            <div class="card">
+              <a href="perpus.html" class="text-decoration-none">
+                <div class="text-center">
+                <img src="assets/img/buku1.jpg" class="card-img-top img-fluid mb-2 responsive-img mt-2 rounded-3" alt="buku">
+                </div>
+                <div class="card-body">
+                  <p class="title "><a href="#" class="text-black">Bacaan Sahabat Nabi</a></p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-4 col-lg-3 scrollable">
+            <div class="card">
+              <a href="perpus.html" class="text-decoration-none">
+                <div class="text-center">
+                <img src="assets/img/buku2.jpg" class="card-img-top img-fluid mb-2 responsive-img mt-2 rounded-3" alt="buku">
+                </div>
+                <div class="card-body">
+                  <p class="title "><a href="#" class="text-black">Bacaan Sahabat Nabi</a></p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-4 col-lg-3 scrollable">
+            <div class="card ">
+              <a href="perpus.html" class="text-decoration-none">
+                <div class="text-center">
+                <img src="assets/img/buku2.jpg" class="card-img-top img-fluid mb-2 responsive-img mt-2 rounded-3" alt="buku">
+                </div>
+                <div class="card-body">
+                  <p class="title "><a href="#" class="text-black">Bacaan Sahabat Nabi</a></p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Akhir konten buku-buku -->
+      
+      </div>
+    </section><!-- End About Us Section -->
+
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="berita" class="stats-counter">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-0">
+          <p class="mb-0 text-black"><strong>Berita Sekolah</strong></p> <!-- mb-0 untuk menghilangkan margin bawah -->
+        </div>
+
+        <div class="row gy-4 team justify-content-center align-items-center ">
+          <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="d-flex flex-column">
+                <img src="assets/img/berita2.jpg" class="img-fluid ukuran" alt="">
+                <div class="mt-3">
+                  <h4>DI BUKA HARI INI, BERIKUT CARA DAFTAR AKUN PPDB JATENG 2024</h4>
+                  <div class="d-flex justify-content-between align-items-center mt-4">
+                    <span>11 Juni 2024</span>
+                    <a href=""><i class="bi bi-share text-black" style="margin-right: 10px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="d-flex flex-column">
+                <img src="assets/img/berita3.png.jpg" class="img-fluid ukuran" alt="">
+                <div class="mt-3">
+                  <h4>Selamat Datang Peserta Didik Baru 2024</h4>
+                  <div class="d-flex justify-content-between align-items-center mt-4">
+                    <span>11 Juni 2024</span>
+                    <a href=""><i class="bi bi-share text-black" style="margin-right: 10px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="d-flex flex-column">
+                <img src="assets/img/berita4.png.jpg" class="img-fluid ukuran" alt="">
+                <div class="mt-3">
+                  <h4>Sosialisasi Program Kesehatan 2024</h4>
+                  <div class="d-flex justify-content-between align-items-center mt-4">
+                    <span>11 Juni 2024</span>
+                    <a href=""><i class="bi bi-share text-black" style="margin-right: 10px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>     
+          <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="d-flex flex-column">
+                <img src="assets/img/berita5.jpg" class="img-fluid ukuran" alt="">
+                <div class="mt-3">
+                  <h4>Pameran Seni Budaya 2024</h4>
+                  <div class="d-flex justify-content-between align-items-center mt-4">
+                    <span>11 Juni 2024</span>
+                    <a href=""><i class="bi bi-share text-black" style="margin-right: 10px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="d-flex flex-column">
+                <img src="assets/img/berita6.jpg" class="img-fluid ukuran" alt="">
+                <div class="mt-3">
+                  <h4>Hari Santri Nasional 2023</h4>
+                  <div class="d-flex justify-content-between align-items-center mt-4">
+                    <span>11 Juni 2024</span>
+                    <a href=""><i class="bi bi-share text-black" style="margin-right: 10px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="d-flex flex-column">
+                <img src="assets/img/berita7.jpg" class="img-fluid ukuran" alt="">
+                <div class="mt-3">
+                  <h4>Earth Day2024</h4>
+                  <div class="d-flex justify-content-between align-items-center mt-4">
+                    <span>11 Juni 2024</span>
+                    <a href=""><i class="bi bi-share text-black" style="margin-right: 10px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="d-flex flex-column">
+                <img src="assets/img/berita8.jpg" class="img-fluid ukuran" alt="">
+                <div class="mt-3">
+                  <h4>Camping Tours 2024</h4>
+                  <div class="d-flex justify-content-between align-items-center mt-4">
+                    <span>11 Juni 2024</span>
+                    <a href=""><i class="bi bi-share text-black" style="margin-right: 10px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>                                      
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+    <section id="About" class="recent-posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header justify-content-between align-items-center mb-0">
+          <p class="mb-0 text-black"><strong>Tentang Kami</strong></p> <!-- mb-0 untuk menghilangkan margin bawah -->
+          <div class="d-flex align-items-center mt-4">
+            <img src="assets/img/dinasLogo.png" class="rounded-1 mr-4" alt="Logo Sekolah" style="max-height: 40px; margin-right: 10px;">
+            <p class="m-0 text-black"><strong>Nama Sekolah</strong></p>
+          </div>
+        </div>
+        <!-- Konten lainnya di sini -->        
+         <p style="text-align: justify;">
+          Dalam sebuah komunitas pendidikan yang kaya akan sejarah dan tradisi, para pelajar memasuki bangunan yang telah menyaksikan generasi-generasi sebelumnya tumbuh dan berkembang. Di sini, tiap ruang mengandung cerita tentang perjalanan panjang sekolah ini, dimulai dari hari-hari awal pendiriannya hingga menjadi institusi pendidikan yang terhormat saat ini. Setiap lorong dipenuhi dengan foto-foto tahunan dan penghargaan yang memperingati prestasi siswa dan staf. Walaupun sekolah ini telah mengalami perubahan dan peningkatan, semangat untuk memberikan pendidikan berkualitas dan mempersiapkan siswa untuk masa depan yang cerah tetap menjadi prioritas utama.
+         </p>
+            
+            <!-- End recent posts list -->
+          </div>
+    </section><!-- End About Us Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container justify-content-center align-items-center text-center">
+      <div class=" footer-contact ">
+        <h5 class="mb-0"><strong>Didukung Oleh :</strong></h5>
+        <img src="assets/img/iptn-removebg-preview.png"  alt="Logo Sekolah" style="max-height: 150px; ">
+        <img src="assets/img/logoperpus-removebg-preview.png"  alt="Logo Sekolah" style="max-height: 150px; ">
+
+    </div>
+  </div>
+
+    <div class="container mb-5 ">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-12 footer-contact text-md-start text-center">
+          <h5 class="mb-0"><strong>Kontak Sekolah</strong></h5>
+        </div>
+
+        <div class="col-lg-4 col-md-12 text-center">
+          <p>
+            <strong>telepon :</strong> <strong class="text-primary">0123456789</strong><br>
+            <strong>whatsap :</strong> <strong class="text-primary">0123456789</strong><br>
+            <strong>email   :</strong> <strong class="text-primary">namasekolah@gmail.com</strong><br> 
+            <strong>alamat  :</strong> <strong class="text-primary">jln. indonesia emas 2024</strong><br>
+          </p>
+
+        </div>
+        <div class="col-lg-4 justify-content-center align-items-center text-center">
+          <img src="assets/img/map.jpg" alt="Logo Sekolah" style="max-height: 200px; max-width: 350px;" >
+        </div>
+        <div class="col-lg-12 col-md-12 gy-4 justify-content-center align-items-center text-center " style="margin-top: 30px;">
+            <h4 class="mb-3"><strong>ikuti kami</strong></h4>
+            <a href="#"><i class="bi bi-facebook text-black fs-1 me-5"></i></a>&nbsp;&nbsp;
+            <a href="#"><i class="bi bi-instagram text-black fs-1 me-5"></i></i></a>&nbsp;&nbsp;
+            <a href="#"><i class="bi bi-tiktok text-black fs-1 me-5"></i></a>&nbsp;&nbsp;
+            <a href="#"><i class="bi bi-youtube text-black fs-1"></i></a>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        <h4 class="">layanan & ketentuan</h4>
+        <p>syarat & ketentuan</p>
+        <p>Kebijakan Privasi</p>
+        <p>Kontak Kami</p>
+        IPTN&copy;2024 All Rights Reserved
+      </div>
+    </div>
+
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- Pastikan jQuery dan Bootstrap terhubung -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('#hero-carousel').carousel({
+            interval: 2000 // Mengatur interval waktu slide otomatis (dalam milidetik)
+        });
+    });
+    </script>
+
+</body>
+
 </html>
